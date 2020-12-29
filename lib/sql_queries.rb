@@ -18,7 +18,7 @@ end
   #"SELECT users.name, users.age, SUM(pledges.amount)
   #FROM users
   #INNER JOIN pledges
-  3ON users.id = pledges.user_id
+  #ON users.id = pledges.user_id
   #GROUP BY users.name;"
 #end
 
